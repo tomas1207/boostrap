@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -32,172 +33,178 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="page-header">
-            <h1>Teste</h1>
-        </div>
-        <div class="jumbotron">
-            <h1>Bootstrap Tutorial</h1>
-            <p>
-                Podem ver que tem um caixa a minha volta
-            </p>
+    <div class="container ">
+        <div class="row">
+            <div class="page-header">
+                <h1>Teste</h1>
+            </div>
+            <div class="jumbotron">
+                <h1>Bootstrap Tutorial</h1>
+                <p>
+                    Podem ver que tem um caixa a minha volta
+                </p>
+            </div>
         </div>
         <div class="row">
-            <div class="col-xs-5 col-lg-5 col-md-5">Isto e um teste de boostrap com ajuda no visual studio</div>
+            <div class="col-xs-5">Isto e um teste de boostrap com ajuda no visual studio</div>
         </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0"></li>
-                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
 
-            </ol>
+                </ol>
 
 
-            <div class="carousel-inner">
-                <div class="item ">
-                    <img src="PARIS.jpg" alt="Paris">
+                <div class="carousel-inner">
+                    <div class="item ">
+                        <img src="PARIS.jpg" alt="Paris">
+                    </div>
+
+                    <div class="item active">
+                        <img src="Portugal.jpg" alt="Portugal">
+                    </div>
+
+                    <div class="item">
+                        <img src="Portugal2.jpg" alt="Cenas">
+                        <h2>Ola</h2>
+                    </div>
+                    <div class="item">
+                        <img src="portugal_torre.jpg" alt="Torre" />
+                    </div>
                 </div>
 
-                <div class="item active">
-                    <img src="Portugal.jpg" alt="Portugal">
-                </div>
-
-                <div class="item">
-                    <img src="Portugal2.jpg" alt="Cenas">
-                    <h2>Ola</h2>
-                </div>
-                <div class="item">
-                    <img src="portugal_torre.jpg" alt="Torre" />
-                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
         <p></p>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Tomas</td>
-                    <td>Fernandes</td>
-                    <td>tomasFernandes98@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Tomas</td>
-                    <td>Fernandesssssssssssss</td>
-                    <td>tomasFernandes98@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Tomas</td>
-                    <td>Fernandes</td>
-                    <td>tomasFernandes98@gmail.com</td>
-                </tr>
-            </tbody>
-        </table>
         <div class="row">
-            <img src="la.jpg" class="img-responsive" alt="Cinque Terre">
-        </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tomas</td>
+                        <td>Fernandes</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Tomas</td>
+                        <td>Fernandesssssssssssss</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>Tomas</td>
+                        <td>Fernandes</td>
 
-        <div class="alert alert-success">
-            <strong>Success!</strong>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+            <div class="row">
+                <img src="la.jpg" class="img-responsive" alt="Cinque Terre">
+            </div>
 
-        <div class="alert alert-info">
-            <strong>Info!</strong>
-        </div>
+            <div class="alert alert-success">
+                <strong>Success!</strong>
+            </div>
 
-        <div class="alert alert-warning">
-            <strong>Warning!</strong>
-        </div>
+            <div class="alert alert-info">
+                <strong>Info!</strong>
+            </div>
 
-        <div class="alert alert-danger">
-            <strong>Danger!</strong>
-        </div>
-        <div class="row">
-            <h2>Button Styles</h2>
-            <button type="button" class="btn">basico</button>
-            <button type="button" class="btn btn-default">Default</button>
-            <button type="button" class="btn btn-primary">Primario</button>
-            <button type="button" class="btn btn-success">Sucesso</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-link">Link</button>
-        </div>
-        <p></p>
-        <p></p>
-        <div class="row">
-            <a href="#" class="btn btn-success btn-lg">
-                <span class="glyphicon glyphicon-print"></span> Impremir <span class="badge">10</span>
-            </a>
-        </div>
-        <p> </p>
-        <p> </p>
-        <p> </p>
-        <p> </p>
-        <p> </p>
-        <div class="row">
-            <div class="progress">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
-                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                    50% Completo (info)
+            <div class="alert alert-warning">
+                <strong>Warning!</strong>
+            </div>
+
+            <div class="alert alert-danger">
+                <strong>Danger!</strong>
+            </div>
+            <div class="row">
+                <h2>Button Styles</h2>
+                <button type="button" class="btn">basico</button>
+                <button type="button" class="btn btn-default">Default</button>
+                <button type="button" class="btn btn-primary">Primario</button>
+                <button type="button" class="btn btn-success">Sucesso</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <p></p>
+            <p></p>
+            <div class="row">
+                <a href="#" class="btn btn-success btn-lg">
+                    <span class="glyphicon glyphicon-print"></span> Impremir <span class="badge">10</span>
+                </a>
+            </div>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <div class="row">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                         aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                        50% Completo (info)
+                    </div>
+                </div>
+                <ul class="pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <ul class="pager">
+                    <li><a href="#">Previous</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </div>
+            <h2>Panel </h2>
+            <div class="panel panel-default">
+                <div class="panel-heading">Panel</div>
+                <div class="panel-body">Ola sou o jose</div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">Panel sucess</div>
+                <div class="panel-body">ola</div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <img src="Avatar.jpg" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Left-aligned</h4>
+                    <p>Olas sad asd dasfpsdfn smsd fnsd fks dfk skl dfls dflk slkf slk flks f </p>
                 </div>
             </div>
-            <ul class="pagination">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-            </ul>
-            <ul class="pager">
-                <li><a href="#">Previous</a></li>
-                <li><a href="#">Next</a></li>
-            </ul>
-        </div>
-        <h2>Panel </h2>
-        <div class="panel panel-default">
-            <div class="panel-heading">Panel</div>
-            <div class="panel-body">Ola sou o jose</div>
-        </div>
-        <div class="panel panel-success">
-            <div class="panel-heading">Panel sucess</div>
-            <div class="panel-body">ola</div>
-        </div>
-        <div class="media">
-            <div class="media-left">
-                <img src="Avatar.jpg" class="media-object" style="width:60px">
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Left-aligned</h4>
-                <p>Olas sad asd dasfpsdfn smsd fnsd fks dfk skl dfls dflk slkf slk flks f </p>
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">Right-aligned</h4>
+                    <p>Olas sad asd dasfpsdfn smsd fnsd fks dfk skl dfls dflk slkf slk flks f</p>
+                </div>
+                <div class="media-right">
+                    <img src="Avatar.jpg" class="media-object" style="width:60px">
+                </div>
             </div>
         </div>
-        <div class="media">
-            <div class="media-body">
-                <h4 class="media-heading">Right-aligned</h4>
-                <p>Olas sad asd dasfpsdfn smsd fnsd fks dfk skl dfls dflk slkf slk flks f</p>
-            </div>
-            <div class="media-right">
-                <img src="Avatar.jpg" class="media-object" style="width:60px">
-            </div>
-        </div>
-    </div>
 </body>
 </html>
